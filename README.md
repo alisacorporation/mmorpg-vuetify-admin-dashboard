@@ -4,9 +4,9 @@ Admin dashboard made with vue.js 2 / vuetify 2 for mmorpg game Lineage 2 Interlu
 My first big project was https://la2dream.com Lineage II Interlude MMORPG website with admin dashboard.
 For Frontend and Admin dashb
 
-![Dashboard](https://github.com/alisacorporation/mmorpg-vuetify-admin-dashboard/blob/master/2023-08-04_04-48_dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/alisacorporation/mmorpg-vuetify-admin-dashboard/master/2023-08-04_04-48_dashboard.png)
 
-![Online](https://github.com/alisacorporation/mmorpg-vuetify-admin-dashboard/blob/master/Screenshot_2023-08-11_12-15-57_online.png)
+![Online](https://raw.githubusercontent.com/alisacorporation/mmorpg-vuetify-admin-dashboard/master/Screenshot_2023-08-11_12-15-57_online.png)
 
 ![Coins](https://github.com/alisacorporation/mmorpg-vuetify-admin-dashboard/blob/master/Screenshot_2023-08-11_12-16-38_coins.png)
 
