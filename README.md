@@ -10,35 +10,32 @@ This project is an Admin Dashboard for the MMORPG game Lineage 2 Interlude, buil
   - Password & Username Recovery
   - Change Password/Email
   - Unbind Characters by HWID (Hardware ID)
-- Payment Systems:
+- #### Payment Systems:
   - Integration of over 10 payment systems developed over 2+ years
-- Game Statistics and Rankings:
+- #### Game Statistics and Rankings:
   - Top Characters, Clans, PK, PvP
   - Castle Attackers and Defenders
   - Character Search from Website
-- Email Management:
+- #### Email Management:
   - SMTP Server Setup on Personal VPS (Docker) due to issues with commercial providers (high bounce rate from email verification policy)
   - Cost-effective solution at €6/month (4C/8G/200G SSD)
-- Performance Optimization:
+- #### Performance Optimization:
   - Browser Storage for API Responses (JSON encoding)
   - Fallback to File/Redis Cache if Browser Storage is Disabled
   - HTTP E-Tag for Efficient Data Transfers
-- Security Measures:
+- #### Security Measures:
   - Throttling (CodeIgniter Filter) to Prevent DoS Attacks (429 error for >60 requests/min)
   - Additional Security Filters: Referrer Check, IP Whitelist/Blacklist
 
 ### Technical Stack
-- Frontend: 
+- #### Frontend: 
   - Vue.js 2 
   - Vuetify 2
-
-- Backend:
+- #### Backend:
   - CodeIgniter 4 (REST API)
-
-- Database: 
+- #### Database: 
   - MySQL
-
-- Deployment:
+- #### Deployment:
   - "deploy": "vite build && rsync -e 'ssh -p 40023' -avzP ./dist/* root@10.66.66.1:/var/www/html/example.com"
 
 ### Challenges and Solutions
