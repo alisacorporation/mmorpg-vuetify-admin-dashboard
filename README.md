@@ -5,7 +5,7 @@
 This project is an Admin Dashboard for the MMORPG game Lineage 2 Interlude, built using Vue.js 2 and Vuetify 2 for the frontend, with CodeIgniter 4 as the backend framework.
 
 ### Features
-- User Management:
+- #### User Management:
   - Signup
   - Password & Username Recovery
   - Change Password/Email
